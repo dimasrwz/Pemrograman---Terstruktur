@@ -13,7 +13,6 @@ try:
         else:
             hasil += chr((ord(i) - key - 65) % 26 + 65)
         
-  
     dataFile.close()
     enkripsi = open(file + '.encrypt.decrypt', 'w')
     enkripsi.write(hasil)
